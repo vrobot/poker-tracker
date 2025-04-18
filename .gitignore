@@ -1,0 +1,52 @@
+Secrets.xcconfig
+.env
+
+# Xcode temporary files
+DerivedData/
+build/
+
+xcshareddata
+
+# User‐specific settings
+xcuserdata/
+*.xcuserstate
+
+# Workspace settings (if you use CocoaPods, SPM, etc.)
+*.xcworkspace
+!default*.xcworkspace     # if you do want to keep the “official” workspace
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Fastlane outputs
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Generated archives/debug symbols
+*.ipa
+*.dSYM
+
+# macOS filesystem noise
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs and temporary files
+*.log
+*.swp
+*~
